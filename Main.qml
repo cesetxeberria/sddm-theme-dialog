@@ -94,8 +94,8 @@ Rectangle {
 
 			TextField {
 				id: userNameField
+				focus: true
 				width: height*10
-				text: userModel.lastUser
 				onAccepted: sddm.login(userNameField.text, passwordField.text, sessionField.index)
 			}
 
@@ -107,7 +107,6 @@ Rectangle {
 				id: passwordField
 				width: height*10
 				echoMode: TextInput.Password
-				focus: true
 				onAccepted: sddm.login(userNameField.text, passwordField.text, sessionField.index)
 			}
 
