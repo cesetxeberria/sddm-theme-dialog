@@ -96,6 +96,7 @@ Rectangle {
 				id: userNameField
 				focus: true
 				width: height*10
+				onFocusChanged: {if (focus) selectAll()}
 				onAccepted: sddm.login(userNameField.text, passwordField.text, sessionField.index)
 			}
 
@@ -107,6 +108,7 @@ Rectangle {
 				id: passwordField
 				width: height*10
 				echoMode: TextInput.Password
+				onFocusChanged: {if (focus) selectAll()}
 				onAccepted: sddm.login(userNameField.text, passwordField.text, sessionField.index)
 			}
 
