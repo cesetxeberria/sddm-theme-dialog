@@ -1,6 +1,6 @@
 ## About this fork
 This is a fork of Joshua Krämer's sddm theme. IMHO It's the best sddm theme possible: just two text boxes for the username and the password. Nothing more. Nothing less.
-I'm going to use it to authenticate in my LDAP server, so I've made 2 changes: focus is on the username's textbox and it's blank by default. Original theme fills it with last username and puts the focus on the password's textbox.
+I'm going to use it to authenticate in my LDAP server, so I've made 2 changes: focus is on the username's textbox and it's blank by default. Original theme fills it with the last username and puts the focus on the password's textbox.
 
 ## Description
 This is an [SDDM](https://github.com/sddm/sddm) theme consisting of a simple login dialog. It is built with [Qt Quick Controls](https://doc.qt.io/qt-5/qtquickcontrols-index.html). Its appearance depends on the selected Qt Quick style (see below for configuration options).
